@@ -1,0 +1,34 @@
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\bin\Debug\jamaiApp.exe
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\bin\Debug\jamaiApp.pdb
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\bin\Debug\jamaiApp.xml
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\MainWindow.baml
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\MainWindow.g.vb
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\Application.g.vb
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\jamaiApp_MarkupCompile.cache
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\jamaiApp.g.resources
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\jamaiApp.Resources.resources
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\jamaiApp.vbproj.GenerateResource.Cache
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\jamaiApp.exe
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\jamaiApp.xml
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\jamaiApp.pdb
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\Window1.baml
+C:\Users\acer\AppData\Local\Temporary Projects\jamaiApp\obj\x86\Debug\Window1.g.vb
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.exe
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.xml
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.pdb
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\MainWindow.baml
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\Window1.baml
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\Window2.baml
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\MainWindow.g.vb
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\Window1.g.vb
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\Window2.g.vb
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\Application.g.vb
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp_MarkupCompile.cache
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.g.resources
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.Resources.resources
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.vbproj.GenerateResource.Cache
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\jamaiApp.exe
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\jamaiApp.pdb
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\jamaiApp.xml
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.vbprojResolveAssemblyReference.cache
+C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\MySql.Data.DLL
