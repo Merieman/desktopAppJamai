@@ -39,3 +39,14 @@ C:\Users\acer\documents\visual studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.vbproj.AssemblyReference.cache
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.vbproj.CoreCompileInputs.cache
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.vbproj.CopyComplete
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\jamaiApp.exe.config
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\CsvHelper.dll
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\LiveCharts.dll
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\LiveCharts.pdb
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\LiveCharts.xml
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.vbproj.SuggestedBindingRedirects.cache

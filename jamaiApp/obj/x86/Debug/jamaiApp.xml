@@ -40,18 +40,28 @@ jamaiApp
 </member>
 <member name="T:jamaiApp.My.Resources.Resources">
 <summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
 </summary>
 </member>
 <member name="P:jamaiApp.My.Resources.Resources.ResourceManager">
 <summary>
-  Returns the cached ResourceManager instance used by this class.
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
 </summary>
 </member>
 <member name="P:jamaiApp.My.Resources.Resources.Culture">
 <summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="T:jamaiApp.graph2">
+<summary>
+graph2
+</summary>
+</member>
+<member name="M:jamaiApp.graph2.InitializeComponent">
+<summary>
+InitializeComponent
 </summary>
 </member>
 <member name="T:jamaiApp.home">
@@ -105,16 +115,6 @@ MainWindow
 </summary>
 </member>
 <member name="M:jamaiApp.MainWindow.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:jamaiApp.graph2">
-<summary>
-graph2
-</summary>
-</member>
-<member name="M:jamaiApp.graph2.InitializeComponent">
 <summary>
 InitializeComponent
 </summary>
