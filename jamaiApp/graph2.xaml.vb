@@ -6,17 +6,17 @@ Imports System.IO
 Imports System.Windows
 Imports System.Windows.Controls
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock
+Imports LiveCharts.Configurations
 
 Public Class graph2
-    Public Property DataPoints As New ChartValues(Of Double)()
-    Public Property TimePoints As New ChartValues(Of DateTime)()
+    Public Property DataPoints As New ChartValues(Of DataPoint)()
 
     Public Sub New()
         InitializeComponent()
         DataContext = Me
-
+        Charting.For(Of DataPoint)(Mappers.Xy(Of DataPoint)().X(Function(dp) dp.X).Y(Function(dp) dp.Y))
         ' Pass the selected value to the method
-        LoadDataFromCSV("C:\\Users\\acer\\Downloads\\Reports", "10352")
+        LoadDataFromCSV("C:\\Users\\acer\\Downloads\\Report", nCharge)
     End Sub
 
     Private Sub LoadDataFromCSV(directoryPath As String, selectedValue As String)
@@ -34,17 +34,27 @@ Public Class graph2
             Dim temperature As Integer = Array.IndexOf(columnHeaders, "TEMPERATURE PIECE")
             Dim heure As Integer = Array.IndexOf(columnHeaders, "HEURE")
 
+
+
             While Not parser.EndOfData
                 Dim fields As String() = parser.ReadFields()
                 Dim rowValue As Integer = Integer.Parse(fields(nDeCharge))
                 If rowValue = selectedValue Then
-                    DataPoints.Add(Integer.Parse(fields(temperature)))
+
+                    Dim h As Double = Double.Parse(fields(heure)) / Double.Parse(1000000000)
+
+                    DataPoints.Add(New DataPoint(h, Double.Parse(fields(temperature))))
+
                     Dim timeString As String = fields(heure)
                     Dim timeValue As Double = Double.Parse(heure)
                     Dim dateTimeValue As DateTime = DateTime.FromOADate(timeValue)
-                    TimePoints.Add(dateTimeValue)
+
+
                 End If
             End While
+
+
+
             ' Read the CSV file
             'Dim lines() As String = File.ReadAllLines(csvFile)
 
@@ -64,5 +74,14 @@ Public Class graph2
             '    End If
             'Next
         Next
+    End Sub
+End Class
+Public Class DataPoint
+    Public Property X As Double
+    Public Property Y As Double
+
+    Public Sub New(x As Double, y As Double)
+        Me.X = x
+        Me.Y = y
     End Sub
 End Class

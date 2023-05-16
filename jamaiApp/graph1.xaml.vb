@@ -19,7 +19,11 @@ Public Class graph1
             ' Try to parse the value entered by the user
             If Not Integer.TryParse(tbSearch.Text, value) Then
                 MessageBox.Show("Please enter a valid integer value.")
-
+            Else
+                nCharge = tbSearch.Text
+                Dim graphi As New graph2
+                graphi.Show()
+                Me.Hide()
             End If
         ElseIf rbDate.IsChecked Then
             ' Try to parse the date entered by the user
