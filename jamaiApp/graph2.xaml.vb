@@ -10,6 +10,7 @@ Imports LiveCharts.Configurations
 
 Public Class graph2
     Public Property DataPoints As New ChartValues(Of DataPoint)()
+    Public Property DataPoints2 As New ChartValues(Of DataPoint)()
 
     Public Sub New()
         InitializeComponent()
@@ -33,7 +34,7 @@ Public Class graph2
             Dim nDeCharge As Integer = Array.IndexOf(columnHeaders, "NUMERO DE CHARGE")
             Dim temperature As Integer = Array.IndexOf(columnHeaders, "TEMPERATURE PIECE")
             Dim heure As Integer = Array.IndexOf(columnHeaders, "HEURE")
-
+            Dim consigne As Integer = Array.IndexOf(columnHeaders, "CONSIGNE1")
 
 
             While Not parser.EndOfData
@@ -44,6 +45,7 @@ Public Class graph2
                     Dim h As Double = Double.Parse(fields(heure)) / Double.Parse(1000000000)
 
                     DataPoints.Add(New DataPoint(h, Double.Parse(fields(temperature))))
+                    DataPoints2.Add(New DataPoint(h, Double.Parse(fields(consigne))))
 
                     Dim timeString As String = fields(heure)
                     Dim timeValue As Double = Double.Parse(heure)
