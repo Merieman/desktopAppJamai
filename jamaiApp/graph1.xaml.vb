@@ -8,7 +8,7 @@ Imports System.Globalization
 
 
 
-Public Class Window2
+Public Class graph1
 
     Private Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
         Dim value As Integer = 0
@@ -80,8 +80,8 @@ Public Class Window2
 
     End Sub
 
-    
-   
+
+
 
     Private Sub rbValue_Checked(sender As System.Object, e As System.Windows.RoutedEventArgs) Handles rbValue.Checked
 

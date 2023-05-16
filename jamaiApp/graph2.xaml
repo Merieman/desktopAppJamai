@@ -1,0 +1,9 @@
+﻿<Window x:Class="graph2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Graph Window" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="chartImage" />
+    </Grid>
+</Window>
+

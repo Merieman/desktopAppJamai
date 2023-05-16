@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Window1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="MainWindow" Height="504" Width="815" Foreground="#FF7C9ADC">
+    Title="MainWindow"  Height="504" Width="815" Foreground="#FF7C9ADC">
     <Grid Width="785" Height="445" Background="{x:Null}">
         
 
@@ -9,7 +9,7 @@
         <Image Height="42" HorizontalAlignment="Left" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="105" Source="/jamaiApp;component/Images/logo%20j.jpeg" />
         <Menu Height="23" HorizontalAlignment="Left" Margin="639,12,0,0" Name="Menu1" VerticalAlignment="Top" Width="146" Background="White" Foreground="#FF407BFF">
             <MenuItem Header="User" FontSize="14" FontWeight="Normal" />
-            <MenuItem Header="Déconnexion" FontSize="14" />
+            <MenuItem Header="Déconnexion" FontSize="14" Name="MenuItem1" />
         </Menu>
         <ScrollViewer Margin="0,41,0,0">
             <Grid DataContext="{Binding}" HorizontalAlignment="Stretch">

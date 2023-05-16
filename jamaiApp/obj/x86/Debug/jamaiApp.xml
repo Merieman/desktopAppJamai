@@ -6,80 +6,117 @@ jamaiApp
 </name>
 </assembly>
 <members>
-<member name="M:jamaiApp.Application.InitializeComponent">
-	<summary>
-InitializeComponent
-</summary>
-</member><member name="M:jamaiApp.Application.Main">
-	<summary>
-Application Entry Point.
-</summary>
-</member><member name="T:jamaiApp.Application">
-	<summary>
-Application
-</summary>
-</member><member name="M:jamaiApp.Window1.InitializeComponent">
-	<summary>
-InitializeComponent
-</summary>
-</member><member name="T:jamaiApp.Window1">
-	<summary>
-Window1
-</summary>
-</member><member name="M:jamaiApp.Window2.InitializeComponent">
-	<summary>
-InitializeComponent
-</summary>
-</member><member name="T:jamaiApp.Window2">
-	<summary>
-Window2
-</summary>
-</member><member name="M:jamaiApp.MainWindow.InitializeComponent">
-	<summary>
-InitializeComponent
-</summary>
-</member><member name="T:jamaiApp.MainWindow">
-	<summary>
-MainWindow
-</summary>
-</member><member name="P:jamaiApp.My.MyWpfExtension.Application">
-	<summary>
+<member name="T:jamaiApp.My.MyWpfExtension">
+ <summary>
+ Module utilisé pour définir les propriétés qui sont disponibles dans l'espace de noms My pour WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:jamaiApp.My.MyWpfExtension.Application">
+ <summary>
  Retourne l'objet application pour l'application en cours d'exécution
  </summary>
-</member><member name="P:jamaiApp.My.MyWpfExtension.Computer">
-	<summary>
+</member>
+<member name="P:jamaiApp.My.MyWpfExtension.Computer">
+ <summary>
  Retourne les informations relatives à l'ordinateur hôte.
  </summary>
-</member><member name="P:jamaiApp.My.MyWpfExtension.User">
-	<summary>
+</member>
+<member name="P:jamaiApp.My.MyWpfExtension.User">
+ <summary>
  Retourne les informations relatives à l'utilisateur actuel. Si vous souhaitez exécuter l'application avec les 
  informations d'identification de l'utilisateur Windows, appelez My.User.InitializeWithWindowsUser().
  </summary>
-</member><member name="P:jamaiApp.My.MyWpfExtension.Log">
-	<summary>
+</member>
+<member name="P:jamaiApp.My.MyWpfExtension.Log">
+ <summary>
  Retourne le journal de l'application. L'écouteur peut être configuré par le fichier de configuration de l'application.
  </summary>
-</member><member name="P:jamaiApp.My.MyWpfExtension.Windows">
-	<summary>
+</member>
+<member name="P:jamaiApp.My.MyWpfExtension.Windows">
+ <summary>
  Retourne la collection de fenêtres définie dans le projet.
  </summary>
-</member><member name="T:jamaiApp.My.MyWpfExtension">
-	<summary>
- Module utilisé pour définir les propriétés qui sont disponibles dans l'espace de noms My pour WPF
- </summary>
-	<remarks></remarks>
-</member><member name="P:jamaiApp.My.Resources.Resources.ResourceManager">
-	<summary>
+</member>
+<member name="T:jamaiApp.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:jamaiApp.My.Resources.Resources.ResourceManager">
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:jamaiApp.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:jamaiApp.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="T:jamaiApp.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
+</member>
+<member name="T:jamaiApp.home">
+<summary>
+home
+</summary>
+</member>
+<member name="M:jamaiApp.home.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:jamaiApp.Window1">
+<summary>
+Window1
+</summary>
+</member>
+<member name="M:jamaiApp.Window1.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:jamaiApp.graph1">
+<summary>
+graph1
+</summary>
+</member>
+<member name="M:jamaiApp.graph1.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:jamaiApp.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:jamaiApp.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:jamaiApp.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:jamaiApp.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:jamaiApp.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:jamaiApp.graph2">
+<summary>
+graph2
+</summary>
+</member>
+<member name="M:jamaiApp.graph2.InitializeComponent">
+<summary>
+InitializeComponent
 </summary>
 </member>
 </members>
