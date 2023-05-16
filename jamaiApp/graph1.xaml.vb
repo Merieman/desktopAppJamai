@@ -42,7 +42,7 @@ Public Class graph1
                 Dim dataTable As New DataTable()
                 dataTable.Columns.Add("Ncharge")
                 For Each file As String In csvFiles
-                    Dim fileName As String = Path.GetFileName(file)
+                    'Dim fileName As String = Path.GetFileName(file)
 
                     ' Detect the delimiter used in the file
                     Dim parser As New TextFieldParser(file)
@@ -57,7 +57,7 @@ Public Class graph1
                         Dim fields As String() = parser.ReadFields()
                         'Dim rowValue As Integer = Integer.Parse(fields(0))
                         Dim rowDate As DateTime = DateTime.ParseExact(fields(4), "ddMMyyyy", CultureInfo.InvariantCulture)
-                        Dim valueToCheck As Integer = 123
+                        'Dim valueToCheck As Integer = 123
                         Dim rows() As DataRow = dataTable.Select("Ncharge = " & fields(nDeCharge))
 
                         If rows.Length > 0 Then
