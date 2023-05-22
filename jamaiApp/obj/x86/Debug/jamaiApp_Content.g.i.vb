@@ -11,5 +11,5 @@
 Option Strict Off
 Option Explicit On
 
-<Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/four-de-fusion-d-aluminium-859989.jpg")> 
+<Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("output-onlinepngtools.png")> 
 

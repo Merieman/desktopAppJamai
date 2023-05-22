@@ -51,7 +51,8 @@ Public Class graph2
                     Dim timeValue As Double = Double.Parse(heure)
                     Dim dateTimeValue As DateTime = DateTime.FromOADate(timeValue)
 
-
+                    n_charge.Content = "Numéro de charge: " + fields(nDeCharge)
+                    consigne1.Content = "Consigne: " + fields(consigne)
                 End If
             End While
 

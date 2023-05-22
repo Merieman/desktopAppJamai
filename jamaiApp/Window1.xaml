@@ -6,7 +6,7 @@
         
 
 
-        <Image Height="42" HorizontalAlignment="Left" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="105" Source="/jamaiApp;component/Images/logo%20j.jpeg" />
+        <Image Height="36" HorizontalAlignment="Left" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="105" Source="/output-onlinepngtools.png" />
         <Menu Height="23" HorizontalAlignment="Left" Margin="639,12,0,0" Name="Menu1" VerticalAlignment="Top" Width="146" Background="White" Foreground="#FF407BFF">
             <MenuItem Header="User" FontSize="14" FontWeight="Normal" />
             <MenuItem Header="Déconnexion" FontSize="14" Name="MenuItem1" />

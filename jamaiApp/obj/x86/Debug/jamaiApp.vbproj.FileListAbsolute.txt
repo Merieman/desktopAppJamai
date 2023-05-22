@@ -50,3 +50,7 @@ C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\LiveCharts.Wpf.pdb
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\LiveCharts.Wpf.xml
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.vbproj.SuggestedBindingRedirects.cache
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\jamaiApp.exe.manifest
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\jamaiApp.application
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.exe.manifest
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.application

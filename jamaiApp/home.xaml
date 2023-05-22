@@ -18,7 +18,7 @@
                 <Button.Template>
                     <ControlTemplate TargetType="{x:Type Button}">
                         <Grid>
-                            <Image Source="C:\Users\acer\Downloads\white-home-icon-png-21.jpg" Width="32" Height="32" />
+                            <Image Source="/white-home-icon-png-21.jpg" Width="32" Height="32" />
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Bottom" />
                         </Grid>
                     </ControlTemplate>
@@ -29,7 +29,7 @@
                 <Button.Template>
                     <ControlTemplate TargetType="{x:Type Button}">
                         <Grid>
-                            <Image Source="C:\Users\acer\Downloads\52-527751_pics-for-chart-icon-black-and-white-png.png" Width="32" Height="32" />
+                            <Image Source="/52-527751_pics-for-chart-icon-black-and-white-png.png" Width="32" Height="32" />
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Bottom" />
                         </Grid>
                     </ControlTemplate>
@@ -41,7 +41,7 @@
                 <Button.Template>
                     <ControlTemplate TargetType="{x:Type Button}">
                         <Grid>
-                            <Image Source="C:\Users\acer\Downloads\folders-icon-interface-icon-file-in-folder-icon-document-icon-white-text-logo-line-hand-finger-png-clipart-fotor-bg-remover-2023051017835.png" Width="32" Height="32" />
+                            <Image Source="/folders-icon-interface-icon-file-in-folder-icon-document-icon-white-text-logo-line-hand-finger-png-clipart-fotor-bg-remover-2023051017835.png" Width="32" Height="32" />
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Bottom" />
                         </Grid>
                     </ControlTemplate>
@@ -53,7 +53,7 @@
                 <Button.Template>
                     <ControlTemplate TargetType="{x:Type Button}">
                         <Grid>
-                            <Image Source="C:\Users\acer\Downloads\icons8-radiateur-50.png" Width="32" Height="32" />
+                            <Image Source="/icons8-radiateur-50.png" Width="32" Height="32" />
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Bottom" />
                         </Grid>
                     </ControlTemplate>
@@ -63,7 +63,7 @@
 
         <!-- Main content area -->
         <Border Background="White" Height="436" VerticalAlignment="Bottom" Margin="0,0,0,-8" Grid.Column="2" BorderBrush="White" OpacityMask="White"></Border>
-        <Image Height="38" HorizontalAlignment="Left" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="116" Source="/jamaiApp;component/Images/logo%20j.jpeg" Grid.Column="2" />
+        <Image Height="38" HorizontalAlignment="Left" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="116" Source="/output-onlinepngtools.png" Grid.Column="2" />
         
         <Label Name="Label1" Margin="0,0,0,427" Background="#FF407BFF" Foreground="White" Content="ok" FontSize="12" FontWeight="Bold" />
         <Menu Grid.Column="2" Height="38" HorizontalAlignment="Left" Margin="565,12,0,0" Name="Menu1" VerticalAlignment="Top" Width="148" Background="White" VerticalContentAlignment="Stretch" Foreground="#FF407BFF">
