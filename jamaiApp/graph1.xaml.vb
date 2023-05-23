@@ -19,8 +19,9 @@ Public Class graph1
             ' Try to parse the value entered by the user
             If Not Integer.TryParse(tbSearch.Text, value) Then
                 MessageBox.Show("Please enter a valid integer value.")
-            Else
+            ElseIf test = 0 Then
                 nCharge = tbSearch.Text
+                test = 1
                 Dim graphi As New graph2
                 graphi.Show()
                 Me.Hide()
@@ -97,5 +98,7 @@ Public Class graph1
         btnSearch.IsEnabled = True
     End Sub
 
+    Private Sub btnSearch_Click(sender As Object, e As RoutedEventArgs)
 
+    End Sub
 End Class
