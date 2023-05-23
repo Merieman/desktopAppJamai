@@ -74,6 +74,26 @@ home
 InitializeComponent
 </summary>
 </member>
+<member name="T:jamaiApp.Personnel">
+<summary>
+Personnel
+</summary>
+</member>
+<member name="M:jamaiApp.Personnel.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:jamaiApp.second">
+<summary>
+second
+</summary>
+</member>
+<member name="M:jamaiApp.second.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
 <member name="T:jamaiApp.Window1">
 <summary>
 Window1

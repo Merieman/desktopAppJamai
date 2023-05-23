@@ -11,5 +11,5 @@
 Option Strict Off
 Option Explicit On
 
-<Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("output-onlinepngtools.png")> 
+<Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("istockphoto-175529958-170667a.jpg")> 
 

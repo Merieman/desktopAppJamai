@@ -54,3 +54,7 @@ C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\jamaiApp.application
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.exe.manifest
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.application
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\second.g.vb
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\second.baml
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\Personnel.baml
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\Personnel.g.vb

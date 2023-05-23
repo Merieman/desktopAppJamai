@@ -1,11 +1,10 @@
 ﻿Public Class Window1
 
-   
 
-   
-    
-   
-    
+
+
+
+
     Private Sub Button1_Click_1(sender As System.Object, e As System.Windows.RoutedEventArgs) Handles Button1.Click
         four = "SOLO"
         Dim homepage As New home()
@@ -39,5 +38,10 @@
         Dim login As New MainWindow()
         login.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Window1_Loaded(sender As Object, e As RoutedEventArgs) Handles Me.Loaded
+        solo_b.BorderBrush = New SolidColorBrush(Colors.Red)
+
     End Sub
 End Class
