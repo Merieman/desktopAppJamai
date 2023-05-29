@@ -15,9 +15,9 @@
         <Button Content="Se connecter" Height="27" HorizontalAlignment="Left" Margin="334,310,0,0" Name="Button1" VerticalAlignment="Top" Width="88" Background="#FF57ACD5" Foreground="White" BorderBrush="Black" />
         <Label Content="Connexion" Width="98" DataContext="{Binding}" Target="{Binding}" HorizontalAlignment="Left" Margin="334,133,0,273" Name="Label1" FontFamily="Roboto"  FontSize="16" FontWeight="Bold" />
         <Label Content="Identifiant" DataContext="{Binding}" FontFamily="Roboto" FontSize="14" Height="28" HorizontalAlignment="Left" Margin="274,178,0,0" Name="Label3" Target="{Binding}" VerticalAlignment="Top" Width="88" />
-        <TextBox Margin="291,212,311,212" Name="TextBox1" BorderBrush="Black" />
+        <TextBox Margin="291,212,311,212" x:Name="email" BorderBrush="Black" />
         <Label Content="Mot de passe" DataContext="{Binding}" FontFamily="Roboto" FontSize="14" Height="28" HorizontalAlignment="Left" Margin="274,239,0,0" Name="Label4" Target="{Binding}" VerticalAlignment="Top" Width="107" />
-        <TextBox BorderBrush="Black" Margin="291,273,0,151" Name="TextBox2" HorizontalAlignment="Left" Width="186" />
+        <PasswordBox BorderBrush="Black" Margin="291,273,0,151" x:Name="password" HorizontalAlignment="Left" Width="186" />
     </Grid>
         </Viewbox>
 </Window>

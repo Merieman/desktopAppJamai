@@ -7,14 +7,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="jamaiApp.exe.manifest" size="8991">
+    <dependentAssembly dependencyType="install" codebase="jamaiApp.exe.manifest" size="17422">
       <assemblyIdentity name="jamaiApp.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UIQOnwiuDfZ36qBXLfW9Q4U60uibJGnlVA6W2TI4BGw=</dsig:DigestValue>
+        <dsig:DigestValue>SLVmdsOvK+WRgtLS+3ukE7e4xLIpd1dcW9qAPHtX41k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

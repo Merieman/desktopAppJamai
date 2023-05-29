@@ -9,14 +9,37 @@
 
     <Viewbox>
         <Grid Height="386" Width="715">
+            <Menu Height="23" HorizontalAlignment="Left" Margin="569,0,0,0" Name="Menu1" VerticalAlignment="Top" Width="146" Background="White" Foreground="#FF407BFF">
+                <MenuItem Header="User" FontSize="14" FontWeight="Normal" />
+                <MenuItem Header="Déconnexion" FontSize="14" Name="MenuItem1" />
+            </Menu>
             <Image Height="49" HorizontalAlignment="Left" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="133" Source="/output-onlinepngtools.png" />
-            
-                <Button Content="Production" Margin="378,211,237,125" Height="50" Width="100" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" Click="Button_Click_1"  />
-                <Button Content="Personnel" Margin="79,211,536,125" Height="50" Width="100" Cursor="SizeWE" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold"/>
-                <Button Content="Planification" Margin="223,211,392,125" Width="100" Height="50" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" />
-                <Button Content="Qualité" Margin="532,211,83,125" Width="100" Height="50" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" />
-            
-            <Label Content="Application de gestion JAMAI" HorizontalAlignment="Center" Margin="0,61,0,0" VerticalAlignment="Top" Width="242" FontSize="16" FontWeight="Bold" Foreground="#FF407BFF"/>
+            <Border x:Name="Personnel" BorderBrush="Black" BorderThickness="1" CornerRadius="50" Margin="10,98,555,150">
+                <Border.Background>
+                    <ImageBrush ImageSource="/depositphotos_29234397-stock-photo-human-resources-and-ceo.jpg" />
+                </Border.Background>
+            </Border>
+            <Button Content="Production" Margin="404,256,211,80" Height="50" Width="100" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" Click="Button_Click_1"  />
+            <Button Content="Personnel" Margin="35,256,580,80" Height="50" Width="100" Cursor="SizeWE" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" RenderTransformOrigin="1.001,0.315" Click="Button_Click_2"/>
+            <Button Content="Planification1" Margin="208,256,407,80" Width="100" Height="50" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" Click="Button_Click_3" />
+            <Button Content="Qualité" Margin="580,256,35,80" Width="100" Height="50" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" />
+
+            <Label Content="Application de gestion JAMAI" HorizontalAlignment="Left" Margin="223,41,0,0" VerticalAlignment="Top" Width="242" FontSize="16" FontWeight="Bold" Foreground="#FF407BFF"/>
+            <Border x:Name="Planification" BorderBrush="Black" BorderThickness="1" CornerRadius="50" Margin="183,98,382,150">
+                <Border.Background>
+                    <ImageBrush ImageSource="/AdobeStock_171797743-e1554128929949.jpeg" Stretch="Fill" />
+                </Border.Background>
+            </Border>
+            <Border x:Name="Production" BorderBrush="Black" BorderThickness="1" CornerRadius="50" Margin="379,98,186,150">
+                <Border.Background>
+                    <ImageBrush ImageSource="/heat-treatment2.jpg" />
+                </Border.Background>
+            </Border>
+            <Border x:Name="Qualite" BorderBrush="Black" BorderThickness="1" CornerRadius="50" Margin="555,98,10,150">
+                <Border.Background>
+                    <ImageBrush ImageSource="/fmi-methodes-controle-qualite-1920x1080.jpg" />
+                </Border.Background>
+            </Border>
         </Grid>
     </Viewbox>
 </Window>

@@ -1,0 +1,34 @@
+﻿<Window x:Class="Planification"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:jamaiApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Planification" WindowState="Maximized">
+    <Grid>
+        <Viewbox>
+            <Grid Height="386" Width="715" Background="White">
+                <Menu Height="23" HorizontalAlignment="Left" Margin="520,0,0,0" Name="Menu1" VerticalAlignment="Top" Width="195" Background="White" Foreground="#FF407BFF">
+                    <MenuItem Header="Retour" FontSize="14" FontWeight="Normal" Click="MenuItem_Click" />
+                    <MenuItem Header="User" FontSize="14" FontWeight="Normal" />
+                    <MenuItem Header="Déconnexion" FontSize="14" Name="MenuItem1" />
+                </Menu>
+                <Image Height="49" HorizontalAlignment="Left" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="133" Source="/output-onlinepngtools.png" />
+                <Button Content="Calendrier" Margin="404,256,211,80" Height="50" Width="100" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" />
+                <Button Content="Equipe" Margin="208,256,407,80" Width="100" Height="50" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" />
+                <Border x:Name="Planification" BorderBrush="Black" BorderThickness="1" CornerRadius="50" Margin="183,98,382,150">
+                    <Border.Background>
+                        <ImageBrush ImageSource="/Visuel_cooperation.png" Stretch="Fill" />
+                    </Border.Background>
+                </Border>
+                <Border x:Name="Production" BorderBrush="Black" BorderThickness="1" CornerRadius="50" Margin="379,98,186,150">
+                    <Border.Background>
+                        <ImageBrush ImageSource="/5ae6ccf66554160a79be9f41.png" />
+                    </Border.Background>
+                </Border>
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Window>

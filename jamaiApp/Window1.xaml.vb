@@ -44,4 +44,12 @@
         solo_b.BorderBrush = New SolidColorBrush(Colors.Red)
 
     End Sub
+
+
+
+    Private Sub MenuItem_Click(sender As Object, e As RoutedEventArgs)
+        Dim second1 As New second
+        second1.Show()
+        Me.Hide()
+    End Sub
 End Class

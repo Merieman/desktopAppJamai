@@ -54,6 +54,26 @@ jamaiApp
   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
 </summary>
 </member>
+<member name="T:jamaiApp.CreationCharge">
+<summary>
+CreationCharge
+</summary>
+</member>
+<member name="M:jamaiApp.CreationCharge.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:jamaiApp.equipe">
+<summary>
+equipe
+</summary>
+</member>
+<member name="M:jamaiApp.equipe.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
 <member name="T:jamaiApp.graph2">
 <summary>
 graph2
@@ -80,6 +100,16 @@ Personnel
 </summary>
 </member>
 <member name="M:jamaiApp.Personnel.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:jamaiApp.Planification">
+<summary>
+Planification
+</summary>
+</member>
+<member name="M:jamaiApp.Planification.InitializeComponent">
 <summary>
 InitializeComponent
 </summary>

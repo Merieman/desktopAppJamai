@@ -1,0 +1,3 @@
+﻿Class equipe
+
+End Class

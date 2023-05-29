@@ -11,5 +11,5 @@
 Option Strict Off
 Option Explicit On
 
-<Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("istockphoto-175529958-170667a.jpg")> 
+<Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("5ae6ccf66554160a79be9f41.png")> 
 
