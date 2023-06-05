@@ -17,7 +17,7 @@
                 </Menu>
                 <Image Height="49" HorizontalAlignment="Left" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="133" Source="/output-onlinepngtools.png" />
                 <Button Content="Calendrier" Margin="404,256,211,80" Height="50" Width="100" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" />
-                <Button Content="Equipe" Margin="208,256,407,80" Width="100" Height="50" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" />
+                <Button Content="Equipe" Margin="208,256,407,80" Width="100" Height="50" Background="#FF407BFF" Foreground="White" FontSize="16" FontWeight="Bold" Click="Button_Click_1" />
                 <Border x:Name="Planification" BorderBrush="Black" BorderThickness="1" CornerRadius="50" Margin="183,98,382,150">
                     <Border.Background>
                         <ImageBrush ImageSource="/Visuel_cooperation.png" Stretch="Fill" />

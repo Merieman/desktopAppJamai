@@ -74,13 +74,10 @@
 
             <!-- Main content area -->
 
-            <lvc:CartesianChart Margin="5,38,20,-9" Grid.Column="2" Grid.ColumnSpan="3" Grid.RowSpan="3" Grid.Row="3" >
+            <lvc:CartesianChart Margin="5,38,20,-9" Grid.Column="2" Grid.ColumnSpan="3" Grid.RowSpan="3" Grid.Row="3">
                 <lvc:CartesianChart.Series>
-
-
-                    <lvc:LineSeries Title="Température" Values="{Binding DataPoints}" Stroke="#1B5E20"/>
-                    <lvc:LineSeries Title="Consigne" Values="{Binding DataPoints2}" Stroke="#FF0000"/>
-
+                    <lvc:LineSeries Title="Température" Values="{Binding DataPoints}" Stroke="#1B5E20" PointGeometry="{x:Null}" />
+                    <lvc:LineSeries Title="Consigne" Values="{Binding DataPoints2}" Stroke="#FF0000" PointGeometry="{x:Null}" />
                 </lvc:CartesianChart.Series>
                 <lvc:CartesianChart.AxisX>
                     <lvc:Axis Title="X Axis"/>
@@ -89,6 +86,8 @@
                     <lvc:Axis Title="Y Axis"/>
                 </lvc:CartesianChart.AxisY>
             </lvc:CartesianChart>
+
+
 
 
 

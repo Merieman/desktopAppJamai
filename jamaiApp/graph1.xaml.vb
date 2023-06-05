@@ -27,6 +27,7 @@ Public Class graph1
                 Me.Hide()
             End If
         ElseIf rbDate.IsChecked Then
+            dgResults.Visibility = Visibility.Visible
             ' Try to parse the date entered by the user
             If Not DateTime.TryParseExact(tbSearch.Text, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, dateValue) Then
 
@@ -98,7 +99,35 @@ Public Class graph1
         btnSearch.IsEnabled = True
     End Sub
 
-    Private Sub btnSearch_Click(sender As Object, e As RoutedEventArgs)
 
+
+    Private Sub MenuItem1_Click(sender As Object, e As RoutedEventArgs) Handles MenuItem1.Click
+        Dim decon As New MainWindow
+        decon.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub MenuItem_Click(sender As Object, e As RoutedEventArgs)
+        Dim homepage As New home()
+        homepage.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub dgResults_SelectionChanged(sender As Object, e As SelectionChangedEventArgs) Handles dgResults.SelectionChanged
+        If test = 0 Then
+            Dim selectedItem As Object = dgResults.SelectedItem
+            If TypeOf selectedItem Is System.Data.DataRowView Then
+                ' Cast the selected item to System.Data.DataRowView
+                Dim dataRowView As System.Data.DataRowView = DirectCast(selectedItem, System.Data.DataRowView)
+
+                ' Access the desired property from the DataRowView
+                Dim selectedValue As String = dataRowView("Ncharge").ToString()
+                nCharge = selectedValue
+                test = 1
+                Dim graphi As New graph2
+                graphi.Show()
+                Me.Hide()
+            End If
+        End If
     End Sub
 End Class

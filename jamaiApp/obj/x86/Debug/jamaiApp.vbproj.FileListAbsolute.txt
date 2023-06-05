@@ -93,3 +93,5 @@ C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\bin\Debug\
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\jamaiApp.exe.config
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\creationCharge.baml
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\creationCharge.g.vb
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\testcsv.g.vb
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\testcsv.baml

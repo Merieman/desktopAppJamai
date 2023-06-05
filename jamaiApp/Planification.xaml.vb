@@ -18,4 +18,10 @@
         second1.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Button_Click_1(sender As Object, e As RoutedEventArgs)
+        Dim equip As New equipe
+        equip.Show()
+        Me.Hide()
+    End Sub
 End Class

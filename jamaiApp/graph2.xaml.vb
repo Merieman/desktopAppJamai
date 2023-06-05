@@ -48,9 +48,9 @@ Public Class graph2
                     DataPoints.Add(New DataPoint(h, Double.Parse(fields(temperature))))
                     DataPoints2.Add(New DataPoint(h, Double.Parse(fields(consigne))))
 
-                    Dim timeString As String = fields(heure)
-                    Dim timeValue As Double = Double.Parse(heure)
-                    Dim dateTimeValue As DateTime = DateTime.FromOADate(timeValue)
+                    'Dim timeString As String = fields(heure)
+                    'Dim timeValue As Double = Double.Parse(heure)
+                    'Dim dateTimeValue As DateTime = DateTime.FromOADate(timeValue)
 
                     n_charge.Content = "Numéro de charge: " + fields(nDeCharge)
                     consigne1.Content = "Consigne: " + fields(consigne)
