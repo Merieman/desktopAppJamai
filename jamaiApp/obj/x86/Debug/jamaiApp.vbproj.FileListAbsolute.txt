@@ -95,3 +95,7 @@ C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\De
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\creationCharge.g.vb
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\testcsv.g.vb
 C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\testcsv.baml
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\userdeatails.baml
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\userdeatails.g.vb
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\AddUserWindow.baml
+C:\Users\acer\Documents\Visual Studio 2010\Projects\jamaiApp\jamaiApp\obj\x86\Debug\AddUserWindow.g.vb

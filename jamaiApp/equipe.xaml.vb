@@ -1,10 +1,12 @@
 ﻿Imports Npgsql
+Imports System.Collections.ObjectModel
 Imports System.ComponentModel
 Imports System.Data
 Imports System.Runtime.CompilerServices
 
 Partial Public Class equipe
     Inherits Window
+    Private secondListBoxItems As New ObservableCollection(Of OperatorItem)()
 
     Private SelectedItems As New List(Of OperatorItem)()
 
@@ -60,9 +62,13 @@ Partial Public Class equipe
         Dim item = TryCast(grid.DataContext, OperatorItem)
 
         If item IsNot Nothing Then
-            item.IsSelected = Not item.IsSelected
+            item.IsSelectedSecond = Not item.IsSelectedSecond
         End If
     End Sub
+
+
+
+
 
     Private Sub MenuItem_Click(sender As Object, e As RoutedEventArgs)
         Dim planific As New Planification
@@ -106,12 +112,27 @@ Partial Public Class equipe
 
     Private Sub GetSelectedItems()
         For Each item As OperatorItem In firstListBox.Items
-            If item.IsSelected AndAlso Not SelectedItems.Contains(item) Then
-                SelectedItems.Add(item)
-                secondListBox.Items.Add(item)
+            If item.IsSelected AndAlso Not secondListBoxItems.Contains(item) Then
+                secondListBoxItems.Add(item)
             End If
         Next
     End Sub
+
+
+
+    Private Sub delete_Click(sender As Object, e As RoutedEventArgs) Handles delete.Click
+        ' Get the selected items in the secondListBox
+        Dim selectedItems As List(Of OperatorItem) = secondListBox.Items.Cast(Of OperatorItem)().Where(Function(item) item.IsSelectedSecond).ToList()
+
+        ' Remove the selected items from the secondListBox
+        For Each selectedItem As OperatorItem In selectedItems
+            secondListBox.Items.Remove(selectedItem)
+        Next
+    End Sub
+
+
+
+
 End Class
 
 Public Class OperatorItem
@@ -119,6 +140,8 @@ Public Class OperatorItem
 
     Private _initial As String
     Private _fonction As String
+    Private _initial2 As String
+    Private _fonction2 As String
     Private _team As String
     Private _isSelected As Boolean
     Private _isSelectedSecond As Boolean
@@ -140,6 +163,27 @@ Public Class OperatorItem
         End Get
         Set(value As String)
             _fonction = value
+            OnPropertyChanged()
+        End Set
+    End Property
+
+
+    Public Property Initial2 As String
+        Get
+            Return _initial2
+        End Get
+        Set(value As String)
+            _initial2 = value
+            OnPropertyChanged()
+        End Set
+    End Property
+
+    Public Property Fonction2 As String
+        Get
+            Return _fonction2
+        End Get
+        Set(value As String)
+            _fonction2 = value
             OnPropertyChanged()
         End Set
     End Property

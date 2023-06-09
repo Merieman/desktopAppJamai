@@ -130,4 +130,8 @@ Public Class graph1
             End If
         End If
     End Sub
+
+    Private Sub btnSearch_Click(sender As Object, e As RoutedEventArgs)
+
+    End Sub
 End Class

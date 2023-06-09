@@ -12,7 +12,9 @@ Class second
     End Sub
 
     Private Sub Button_Click_2(sender As Object, e As RoutedEventArgs)
-
+        Dim perso As New Personnel
+        perso.Show()
+        Me.Hide()
     End Sub
 
     Private Sub Button_Click_3(sender As Object, e As RoutedEventArgs)

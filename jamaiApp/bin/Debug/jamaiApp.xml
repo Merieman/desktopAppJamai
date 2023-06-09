@@ -54,6 +54,16 @@ jamaiApp
   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
 </summary>
 </member>
+<member name="T:jamaiApp.AddUserWindow">
+<summary>
+AddUserWindow
+</summary>
+</member>
+<member name="M:jamaiApp.AddUserWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
 <member name="T:jamaiApp.CreationCharge">
 <summary>
 CreationCharge
@@ -130,6 +140,16 @@ testcsv
 </summary>
 </member>
 <member name="M:jamaiApp.testcsv.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:jamaiApp.UserDetails">
+<summary>
+UserDetails
+</summary>
+</member>
+<member name="M:jamaiApp.UserDetails.InitializeComponent">
 <summary>
 InitializeComponent
 </summary>

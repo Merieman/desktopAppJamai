@@ -9,4 +9,7 @@ Module publique
     Public cmd As NpgsqlCommand
     Public reader As NpgsqlDataReader
     Public str As String
+
+
+
 End Module
