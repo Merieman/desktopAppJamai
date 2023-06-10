@@ -21,12 +21,12 @@ Public Class home
         DataContext = Me
         Charting.For(Of DataPoint)(Mappers.Xy(Of DataPoint)().X(Function(dp) dp.X).Y(Function(dp) dp.Y))
         ' Pass the selected value to the method
-
-        LoadDataFromDataBase("C:\rep")
+        user1.Header = usera
+        LoadDataFromDataBase("C:\reports")
 
     End Sub
     Private Sub insertdb()
-        Dim csvFiles() As String = Directory.GetFiles("C:\rep", "*.csv")
+        Dim csvFiles() As String = Directory.GetFiles("C:\reports", "*.csv")
         Dim i As Integer = 0
 
 
@@ -64,14 +64,12 @@ Public Class home
 
             Next
             transaction.Commit()
-            MessageBox.Show("Data inserted successfully.")
+            'MessageBox.Show("Data inserted successfully.")
 
         Catch ex As NpgsqlException
             transaction.Rollback()
-            MessageBox.Show("PostgreSQL Error: " & ex.Message & vbCrLf & "SQL State: ")
         Catch ex As Exception
             transaction.Rollback()
-            MessageBox.Show("Error inserting data: " & ex.Message)
 
         End Try
 

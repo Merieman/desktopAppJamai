@@ -17,7 +17,7 @@
 
         <Menu Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" Background="White" Foreground="#FF407BFF">
             <MenuItem Header="Retour" FontSize="14" FontWeight="Normal" Click="MenuItem_Click" />
-            <MenuItem Header="User" FontSize="14" FontWeight="Normal" />
+            <MenuItem x:Name="user1" Header="User" FontSize="14" FontWeight="Normal" />
             <MenuItem Header="Déconnexion" FontSize="14" Name="MenuItem1" Click="MenuItem1_Click"/>
         </Menu>
 

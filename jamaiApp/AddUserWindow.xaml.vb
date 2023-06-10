@@ -12,8 +12,8 @@ Class AddUserWindow
         Me.Hide()
     End Sub
     Private Sub MenuItem_Click(sender As Object, e As RoutedEventArgs)
-        Dim choose As New Personnel
-        choose.Show()
+        Dim perso As New Personnel
+        perso.Show()
         Me.Hide()
     End Sub
     Private Sub ClearFields()
@@ -31,6 +31,14 @@ Class AddUserWindow
         initTextBox.Text = String.Empty
     End Sub
 
+    Public Sub New()
+
+        ' Cet appel est requis par le concepteur.
+        InitializeComponent()
+
+        ' Ajoutez une initialisation quelconque après l'appel InitializeComponent().
+        user1.Header = usera
+    End Sub
 
     Private Sub addButton_click(sender As Object, e As RoutedEventArgs)
         Dim nom As String = nomTextBox.Text
@@ -140,5 +148,11 @@ Class AddUserWindow
 
     Private Sub eqTextBox_TextChanged(sender As Object, e As TextChangedEventArgs) Handles eqTextBox.TextChanged
         UpdateButtonEnabled()
+    End Sub
+
+    Private Sub MenuItem1_Click_1(sender As Object, e As RoutedEventArgs) Handles MenuItem1.Click
+        Dim decon As New MainWindow
+        decon.Show()
+        Me.Hide()
     End Sub
 End Class

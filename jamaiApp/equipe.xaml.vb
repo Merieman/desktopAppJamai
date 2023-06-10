@@ -12,6 +12,7 @@ Partial Public Class equipe
 
     Public Sub New()
         InitializeComponent()
+        user1.Header = usera
         add.IsEnabled = False
         PopulateFirstListBox()
     End Sub
@@ -112,8 +113,9 @@ Partial Public Class equipe
 
     Private Sub GetSelectedItems()
         For Each item As OperatorItem In firstListBox.Items
-            If item.IsSelected AndAlso Not secondListBoxItems.Contains(item) Then
-                secondListBoxItems.Add(item)
+            If item.IsSelected AndAlso Not SelectedItems.Contains(item) Then
+                SelectedItems.Add(item)
+                secondListBox.Items.Add(item)
             End If
         Next
     End Sub

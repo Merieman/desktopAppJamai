@@ -1,5 +1,18 @@
 ﻿Imports System.Windows.Navigation
 Class second
+    Public Sub New()
+
+        ' Cet appel est requis par le concepteur.
+        InitializeComponent()
+
+        ' Ajoutez une initialisation quelconque après l'appel InitializeComponent().
+        user1.Header = usera
+        If fonct1 <> "admin" Then
+            bt_perso.IsEnabled = False
+            bt_plan.IsEnabled = False
+            bt_qual.IsEnabled = False
+        End If
+    End Sub
     Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
 
     End Sub

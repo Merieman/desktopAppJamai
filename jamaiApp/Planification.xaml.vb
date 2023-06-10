@@ -1,6 +1,13 @@
 ﻿Class Planification
 
+    Public Sub New()
 
+        ' Cet appel est requis par le concepteur.
+        InitializeComponent()
+        user1.Header = usera
+        ' Ajoutez une initialisation quelconque après l'appel InitializeComponent().
+
+    End Sub
     Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
 
     End Sub

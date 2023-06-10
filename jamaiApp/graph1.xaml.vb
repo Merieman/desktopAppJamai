@@ -42,7 +42,7 @@ Public Class graph1
                 ' Allow the user to select the directory where the CSV files are located
                 'Dim dialog As New FolderBrowserDialog()
                 'If dialog.ShowDialog() = True Then
-                Dim directoryPath As String = "C:\Users\acer\Downloads\Report"
+                Dim directoryPath As String = "C:\reports"
                 Dim csvFiles As String() = IO.Directory.GetFiles(directoryPath, "*.csv")
 
                 Dim dataTable As New DataTable()
@@ -130,8 +130,14 @@ Public Class graph1
             End If
         End If
     End Sub
+    Public Sub New()
 
-    Private Sub btnSearch_Click(sender As Object, e As RoutedEventArgs)
+        ' Cet appel est requis par le concepteur.
+        InitializeComponent()
 
+        ' Ajoutez une initialisation quelconque après l'appel InitializeComponent().
+        user1.Header = usera
     End Sub
+
+
 End Class

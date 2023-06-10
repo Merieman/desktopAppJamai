@@ -8,7 +8,9 @@ Class Personnel
     Dim dt As New DataTable()
     Public Sub New()
         InitializeComponent()
+        user1.Header = usera
         LoadData()
+
     End Sub
 
     Private Sub LoadData()

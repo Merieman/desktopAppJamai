@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="av"
         x:Class="AddUserWindow"
-        Title="Add User"
+        Title="Add user"
         WindowState="Maximized"
         Height="349"
         Width="571">
@@ -17,7 +17,7 @@
 
             <Menu Grid.Column="1" HorizontalAlignment="Right" Background="White" Foreground="#FF407BFF" Margin="0,2,-152,-2">
                 <MenuItem Header="Retour" FontSize="14" FontWeight="Normal" Click="MenuItem_Click" />
-                <MenuItem Header="User" FontSize="14" FontWeight="Normal" />
+                <MenuItem x:Name="user1" Header="User" FontSize="14" FontWeight="Normal" />
                 <MenuItem Header="Déconnexion" FontSize="14" Name="MenuItem1" />
             </Menu>
             <Image Source="/output-onlinepngtools.png" Height="41" Width="104" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-152,2,0,0" />

@@ -12,7 +12,7 @@
             <Grid Height="386" Width="715" Background="White">
                 <Menu Height="23" HorizontalAlignment="Left" Margin="520,0,0,0" Name="Menu1" VerticalAlignment="Top" Width="195" Background="White" Foreground="#FF407BFF">
                     <MenuItem Header="Retour" FontSize="14" FontWeight="Normal" Click="MenuItem_Click" />
-                    <MenuItem Header="User" FontSize="14" FontWeight="Normal" />
+                    <MenuItem x:Name="user1" Header="User" FontSize="14" FontWeight="Normal" />
                     <MenuItem Header="Déconnexion" FontSize="14" Name="MenuItem1" />
                 </Menu>
                 <Image Height="49" HorizontalAlignment="Left" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="133" Source="/output-onlinepngtools.png" />

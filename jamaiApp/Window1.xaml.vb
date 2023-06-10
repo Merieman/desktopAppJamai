@@ -3,7 +3,14 @@
 
 
 
+    Public Sub New()
 
+        ' Cet appel est requis par le concepteur.
+        InitializeComponent()
+
+        ' Ajoutez une initialisation quelconque après l'appel InitializeComponent().
+        user1.Header = usera
+    End Sub
 
     Private Sub Button1_Click_1(sender As System.Object, e As System.Windows.RoutedEventArgs) Handles Button1.Click
         four = "SOLO"
@@ -40,10 +47,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub Window1_Loaded(sender As Object, e As RoutedEventArgs) Handles Me.Loaded
-        solo_b.BorderBrush = New SolidColorBrush(Colors.Red)
 
-    End Sub
 
 
 

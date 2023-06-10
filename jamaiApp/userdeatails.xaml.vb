@@ -9,6 +9,7 @@ Class UserDetails
 
         ' Use the passed data to display user details in the window
         ' You can set the values to the appropriate controls in the window
+        user1.Header = usera
         UserIDTextBox.Text = userID.ToString()
         UserNameTextBox.Text = userName
         LastNameTextBox.Text = lastName
@@ -126,6 +127,12 @@ Class UserDetails
         Dim second1 As New Personnel
 
         second1.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub MenuItem1_Click(sender As Object, e As RoutedEventArgs) Handles MenuItem1.Click
+        Dim decon As New MainWindow
+        decon.Show()
         Me.Hide()
     End Sub
 End Class
